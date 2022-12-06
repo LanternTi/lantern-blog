@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "target": "esnext",
+    "module": "esnext",
+    "strict": false,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "views/*": [
+        "src/views/*"
+      ]
+    }
+  }
+}
